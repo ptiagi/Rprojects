@@ -1,22 +1,13 @@
-# HW 8 - Due Tuesday Nov 8, 2016 in moodle and hardcopy in class. 
-# Upload R file to Moodle with filename: HW8_490IDS_YOURID.R
-# Do not remove any of the comments. These are marked by #
+### This project will use Google Earth for data display. 
 
-### This assignment will use Google Earth for data display. 
-### The .rda file is uploaded to Moodle.
-
-### Load HW8.rda and attach the XML library
 require("XML")
 
 
 ### Part 1.  Create the data frame
-### Look at the instructions in HW8.pdf.
-### Functions you'll want to use: xmlParse(), xmlRoot(), xpathSApply(), xmlGetAttr().
-### It also might make it easier to use: xmlToList(), merge().
 
-### Load the data frame called LatLon from HW8.rda.
+### Load the data frame called LatLon.
 
-load("/Users/Dexter/Desktop/DataScience_Assignment/HW8_490IDS_Fall_2016/hw8.rda")
+load("Latlon.rda")
 dim(LatLon)
 names(LatLon)
 
